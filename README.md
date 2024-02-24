@@ -15,4 +15,4 @@ This project was made for the Odin Project's Rock Paper Scissors Game
 
 # Last Updated:
 
-02/23/2024
+02/24/2024
