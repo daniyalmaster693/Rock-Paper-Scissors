@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
+body {
+  background-color: #202636;
+  border: 0;
+  margin: 0;
+}
+
+.header {
+  color: #d3ccb7;
+  background-color: #12151e;
+  display: flex;
+  justify-content: center;
+  font-family: "Nunito Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: medium;
+  margin-bottom: 45px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.roundresults {
+  color: #dddddd;
+  font-family: "Nunito Sans";
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -5px;
+}
+
+.choiceresults {
+  color: #dddddde3;
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.playerplaceholder {
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.playerscore {
+  color: gold;
+  font-family: "Nunito Sans";
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.computerplaceholder {
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.computerscore {
+  color: gold;
+  font-family: "Nunito Sans";
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.choices button {
+  margin: 0;
+  padding: 0;
+}
+
+.rock {
+  background-color: #4a4f57;
+  border-radius: 10px;
+  border: none;
+  height: 160px;
+  width: 160px;
+  font-size: 55px;
+}
+
+.paper {
+  background-color: #4a4f57;
+  border-radius: 10px;
+  border: none;
+  height: 160px;
+  width: 160px;
+  font-size: 55px;
+}
+
+.scissors {
+  background-color: #4a4f57;
+  border-radius: 10px;
+  border: none;
+  height: 160px;
+  width: 160px;
+  font-size: 55px;
+}
+
+.resetgame {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.playagain {
+  background-color: #4a4f57;
+  border-radius: 10px;
+  border: none;
+  color: #dddddd;
+  height: 60px;
+  width: 160px;
+  font-size: 25px;
+  font-family: "Nunito Sans";
+  margin-bottom: 30px;
+}
+
+.footer {
+  background-color: #323b52;
+  color: #d3ccb7;
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: lighter;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+
+button:hover {
+  background-color: #606976;
+}
+
+a:link {
+  color: #d3ccb7;
+}
+
+a:visited {
+  color: #9d998b;
+}
+
+a:visited:hover {
+  color: #fff6da;
+}
+
+a:link:hover {
+  color: #fff6da;
+}
