@@ -9,7 +9,7 @@
 
 # Play it here:
 
-https://blaze4884.github.io/Rock-Paper-Scissors/
+https://daniyalmaster693-rock-paper-scissors.vercel.app
 
 # Images:
 
